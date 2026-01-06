@@ -1,0 +1,12 @@
+{
+  "version": "2026.01.07",
+  "author": "BS. Trịnh Kế An",
+  "rules": [
+    {
+      "id": "TEST_001",
+      "cls_keyword": "Điện tim",
+      "required_icd": ["I20"],
+      "message": "⚠️ TEST: Có điện tim nhưng thiếu ICD I20"
+    }
+  ]
+}
