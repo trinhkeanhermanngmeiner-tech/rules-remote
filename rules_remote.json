@@ -1,12 +1,17 @@
 {
-  "version": "2026.01.07",
-  "author": "BS. Trịnh Kế An",
+  "version": "2026.01.08",
   "rules": [
     {
-      "id": "TEST_001",
+      "id": "CLS_TIM_001",
       "cls_keyword": "Điện tim",
-      "required_icd": ["I20"],
-      "message": "⚠️ TEST: Có điện tim nhưng thiếu ICD I20"
+      "required_icd": ["I20", "I21", "I25"],
+      "message": "Có Điện tim nhưng thiếu ICD bệnh tim mạch"
+    },
+    {
+      "id": "CLS_TIM_002",
+      "cls_keyword": "NT-proBNP",
+      "required_icd": ["I50"],
+      "message": "NT-proBNP thường dùng trong chẩn đoán suy tim"
     }
   ]
 }
