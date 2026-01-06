@@ -8,7 +8,7 @@
     {
       "id": "CLS_TIM_001",
       "cls_keyword": "ĐĐiện tim thường",
-      "required_icd": ["I20", "I21", "I25"],
+      "required_icd": ["I20"],
       "message": "Có Điện tim nhưng thiếu ICD bệnh tim mạch"
     },
     {
