@@ -16,12 +16,6 @@
   "cls_keywords": ["proBNP", "NT-proBNP", "NT pro BNP"],
   "required_icd": ["I50"],
   "message": "⚠️ Có xét nghiệm ProBNP nhưng chưa có chẩn đoán suy tim (I50)"
-},
-      {
-  "id": "CLS_TIM_003",
-  "cls_keywords": [Điện tim thường],
-  "required_icd": ["I20"],
-  "message": "⚠️ Có Điện tim thường nhưng chưa có chẩn đoán)"
 }
   ]
 }
