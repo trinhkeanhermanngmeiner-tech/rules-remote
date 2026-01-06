@@ -9,7 +9,7 @@
     },
     {
       "id": "CLS_TIM_002",
-      "cls_keyword": "NT-proBNP",
+      "cls_keyword": "Định lượng proBNP",
       "required_icd": ["I50"],
       "message": "NT-proBNP thường dùng trong chẩn đoán suy tim"
     }
