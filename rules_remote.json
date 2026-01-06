@@ -7,7 +7,7 @@
   "rules": [
     {
       "id": "CLS_TIM_001",
-      "cls_keyword": "Điện tim",
+      "cls_keyword": "ĐĐiện tim thường",
       "required_icd": ["I20", "I21", "I25"],
       "message": "Có Điện tim nhưng thiếu ICD bệnh tim mạch"
     },
